@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="note_list_title">Notas</string>
+    <string name="new_note">Nueva Nota</string>
+    <string name="delete_note">Eliminar Nota</string>
+    <string name="element_untitled_note">Nota sin título&#8230;</string>
+    <string name="hint_note_title">Ingresa el título.</string>
+    <string name="hint_note_content">Ingresa el contenido.</string>
+</resources>

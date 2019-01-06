@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Notepad</string>
+
+    <string name="note_list_title">Notes</string>
+    <string name="new_note">New Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="element_untitled_note">Untitled Note&#8230;</string>
+    <string name="hint_note_title">Enter a title.</string>
+    <string name="hint_note_content">Enter the content.</string>
+
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+</resources>
