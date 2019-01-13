@@ -1,0 +1,3 @@
+- AccelerometerTest: Ejemplo del servicio de sensores (Sensor Service) con acelerómetro.
+- GoogleMaps: Ejemplo del API de Google Maps.
+- LocationApp: Sobre cómo utilizar el servicio de ubicación de Android (Android Location Service).
