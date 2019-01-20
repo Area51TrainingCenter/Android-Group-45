@@ -1,2 +1,4 @@
-- CameraProject: Ejemplo de uso del intent estándar para tomar fotos.
 - Alarm: Alarmas programadas con notificaciones.
+- CameraProject: Ejemplo de uso del intent estándar para tomar fotos.
+- Notepad: Aplicación de toma de notas con ContentProvider.
+- NotesProviderClient: Utiliza el ContentProvider de la aplicación Notepad para mostrar las notas de esta.
