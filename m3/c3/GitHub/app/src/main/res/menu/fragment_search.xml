@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupSearchOptions"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/optionSearchByUserName"
+            android:checked="true"
+            android:title="@string/search_option_user_name" />
+
+        <item
+            android:id="@+id/optionSearchByRepositoryName"
+            android:title="@string/search_option_repository_name" />
+    </group>
+
+</menu>

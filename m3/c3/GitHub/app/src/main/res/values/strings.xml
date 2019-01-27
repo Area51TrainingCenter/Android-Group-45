@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GitHub Searcher</string>
+    <string name="search_option_user_name">Search by user name.</string>
+    <string name="search_option_repository_name">Search by repository name.</string>
+    <string name="hint_search_user_name">Search by user name&#8230;</string>
+    <string name="hint_search_repository_name">Search by repository name&#8230;</string>
+    <string name="element_mark_favorite">Mark as favorite</string>
+    <string name="element_unmark_favorite">Unmark as favorite</string>
+    <string name="element_created">Created: %s</string>
+    <string name="element_last_update">Last Update: %s</string>
+    <string name="tab_title_search">Search</string>
+    <string name="tab_title_favorite">Favorites</string>
+    <string name="navigation_search">Search</string>
+    <string name="navigation_favorites">Favorites</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_settings">Settings</string>
+    <string name="lorem_ipsum" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur diam ligula, in lobortis tellus pretium at. Sed hendrerit lorem quis convallis lobortis. Etiam eu nibh mauris. Duis sollicitudin lectus a lacus finibus, nec varius tortor facilisis. Sed luctus nec felis quis consequat. Vestibulum ut ipsum id nunc imperdiet fermentum vel sed risus. Fusce eget eleifend tortor, id varius quam. Proin consequat iaculis odio non pulvinar. Sed eleifend eget turpis sit amet consectetur. Vivamus interdum leo vel nibh sagittis fringilla. Quisque accumsan, nulla id viverra gravida, massa erat mollis lacus, at facilisis odio sapien ut ipsum. Pellentesque consectetur hendrerit consectetur. Quisque sit amet leo non leo blandit fringilla fermentum a mi. Vestibulum aliquet elementum nunc, vel sodales neque gravida quis. Aenean mollis justo vitae neque molestie, non elementum eros egestas.</string>
+</resources>

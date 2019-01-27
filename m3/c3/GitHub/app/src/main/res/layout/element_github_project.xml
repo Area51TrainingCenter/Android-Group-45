@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingStart="?listPreferredItemPaddingLeft"
+        android:paddingTop="16dp"
+        android:paddingEnd="?listPreferredItemPaddingRight"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/textViewProjectName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toStartOf="@+id/imageViewFavorite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Item Title" />
+
+        <TextView
+            android:id="@+id/textViewProjectDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:scrollHorizontally="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewProjectName"
+            tools:text="@string/lorem_ipsum" />
+
+        <ImageView
+            android:id="@+id/imageViewFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewProjectName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewProjectName"
+            tools:ignore="contentDescription"
+            tools:src="@drawable/ic_action_fav" />
+
+        <TextView
+            android:id="@+id/textViewPopularity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_star"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewProjectDescription"
+            tools:text="1234" />
+
+        <TextView
+            android:id="@+id/textViewCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewPopularity"
+            app:layout_constraintStart_toEndOf="@+id/textViewPopularity"
+            app:layout_constraintTop_toTopOf="@+id/textViewPopularity"
+            tools:text="Created: Jan-14-2016" />
+
+        <TextView
+            android:id="@+id/textViewLastUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewCreation"
+            app:layout_constraintStart_toEndOf="@+id/textViewCreation"
+            app:layout_constraintTop_toTopOf="@+id/textViewCreation"
+            tools:text="Last Update: Nov-02-2018" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
